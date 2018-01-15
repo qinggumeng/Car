@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		015EB89A1FE7E21D002AA9B7 /* car.html in Resources */ = {isa = PBXBuildFile; fileRef = 015EB8991FE7E21D002AA9B7 /* car.html */; };
+		01857C811FEA748F00ECC8D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01857C801FEA748F00ECC8D6 /* Images.xcassets */; };
+		01857C831FEA77AB00ECC8D6 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 01857C821FEA77AB00ECC8D6 /* logo.png */; };
 		01DCB9611F989A0200F2FB3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DCB9601F989A0200F2FB3C /* main.m */; };
 		01DCB9641F989A0200F2FB3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DCB9631F989A0200F2FB3C /* AppDelegate.m */; };
 		01DCB9671F989A0200F2FB3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DCB9661F989A0200F2FB3C /* ViewController.m */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		015EB8991FE7E21D002AA9B7 /* car.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = car.html; sourceTree = "<group>"; };
+		01857C801FEA748F00ECC8D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../../Downloads/IMG_7662/Images.xcassets; sourceTree = "<group>"; };
+		01857C821FEA77AB00ECC8D6 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../Downloads/logo.png; sourceTree = "<group>"; };
 		01DCB95C1F989A0200F2FB3C /* Car.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Car.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01DCB9601F989A0200F2FB3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		01DCB9621F989A0200F2FB3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,15 +107,18 @@
 		01DCB95E1F989A0200F2FB3C /* Car */ = {
 			isa = PBXGroup;
 			children = (
+				01857C821FEA77AB00ECC8D6 /* logo.png */,
 				01DCB9621F989A0200F2FB3C /* AppDelegate.h */,
 				01DCB9631F989A0200F2FB3C /* AppDelegate.m */,
 				01DCB9651F989A0200F2FB3C /* ViewController.h */,
 				01DCB9661F989A0200F2FB3C /* ViewController.m */,
 				01DCB9681F989A0200F2FB3C /* Main.storyboard */,
 				01DCB96B1F989A0200F2FB3C /* Assets.xcassets */,
+				01857C801FEA748F00ECC8D6 /* Images.xcassets */,
 				01DCB96D1F989A0200F2FB3C /* LaunchScreen.storyboard */,
 				01DCB9701F989A0200F2FB3C /* Info.plist */,
 				01DCB95F1F989A0200F2FB3C /* Supporting Files */,
+				015EB8991FE7E21D002AA9B7 /* car.html */,
 			);
 			path = Car;
 			sourceTree = "<group>";
@@ -207,6 +216,7 @@
 				TargetAttributes = {
 					01DCB95B1F989A0200F2FB3C = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 98L7DQ3GWS;
 						ProvisioningStyle = Automatic;
 					};
 					01DCB9741F989A0200F2FB3C = {
@@ -247,6 +257,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				01DCB96F1F989A0200F2FB3C /* LaunchScreen.storyboard in Resources */,
+				015EB89A1FE7E21D002AA9B7 /* car.html in Resources */,
+				01857C831FEA77AB00ECC8D6 /* logo.png in Resources */,
+				01857C811FEA748F00ECC8D6 /* Images.xcassets in Resources */,
 				01DCB96C1F989A0200F2FB3C /* Assets.xcassets in Resources */,
 				01DCB96A1F989A0200F2FB3C /* Main.storyboard in Resources */,
 			);
@@ -426,10 +439,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 98L7DQ3GWS;
 				INFOPLIST_FILE = Car/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lxd.Car;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxd.Car;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -437,10 +453,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 98L7DQ3GWS;
 				INFOPLIST_FILE = Car/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lxd.Car;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxd.Car;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -509,6 +528,7 @@
 				01DCB98B1F989A0200F2FB3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01DCB98C1F989A0200F2FB3C /* Build configuration list for PBXNativeTarget "CarTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +537,7 @@
 				01DCB98E1F989A0200F2FB3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01DCB98F1F989A0200F2FB3C /* Build configuration list for PBXNativeTarget "CarUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +546,7 @@
 				01DCB9911F989A0200F2FB3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

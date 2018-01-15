@@ -1,0 +1,467 @@
+2017-11-22 09:50:05 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fc47dae89b0; archive(resolved)='<IDEArchive: 0x7fc47d9e08e0>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodDevelopmentSigned: 0x7fc47d47d790>', team(resolved)='<IDEProvisioningBasicTeam 0x7fc47e36f9c0: teamID: 98L7DQ3GWS, teamName: zheng zhang>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fc47dae89b0; archive = '<IDEArchive: 0x7fc47d9e08e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fc47d47d790>', team='<IDEProvisioningBasicTeam 0x7fc47e36f9c0: teamID: 98L7DQ3GWS, teamName: zheng zhang>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fc47da59520; archive = '<IDEArchive: 0x7fc47d9e08e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fc47d47d790>', team='<IDEProvisioningBasicTeam 0x7fc47e36f9c0: teamID: 98L7DQ3GWS, teamName: zheng zhang>'>
+	<IDEDistributionContext: 0x7fc45fbd8950; archive = '<IDEArchive: 0x7fc47d9e08e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fc47d47d790>', team='<IDEProvisioningBasicTeam 0x7fc47e36f9c0: teamID: 98L7DQ3GWS, teamName: zheng zhang>'>
+	<IDEDistributionContext: 0x7fc47f027bf0; archive = '<IDEArchive: 0x7fc47d9e08e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fc47d47d790>', team='<IDEProvisioningBasicTeam 0x7fc47e36f9c0: teamID: 98L7DQ3GWS, teamName: zheng zhang>'>
+	<IDEDistributionContext: 0x7fc47d3695f0; archive = '<IDEArchive: 0x7fc47d9e08e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fc47d47d790>', team='<IDEProvisioningBasicTeam 0x7fc47e36f9c0: teamID: 98L7DQ3GWS, teamName: zheng zhang>'>
+	<IDEDistributionContext: 0x7fc47d5172e0; archive = '<IDEArchive: 0x7fc47d9e08e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fc47d47d790>', team='<IDEProvisioningBasicTeam 0x7fc47e36f9c0: teamID: 98L7DQ3GWS, teamName: zheng zhang>'>
+	<IDEDistributionContext: 0x7fc47d521f70; archive = '<IDEArchive: 0x7fc47d9e08e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fc47d47d790>', team='<IDEProvisioningBasicTeam 0x7fc47e36f9c0: teamID: 98L7DQ3GWS, teamName: zheng zhang>'>
+	<IDEDistributionContext: 0x7fc47d525e80; archive = '<IDEArchive: 0x7fc47d9e08e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fc47d47d790>', team='<IDEProvisioningBasicTeam 0x7fc47e36f9c0: teamID: 98L7DQ3GWS, teamName: zheng zhang>'>
+	<IDEDistributionContext: 0x7fc47d612cd0; archive = '<IDEArchive: 0x7fc47d9e08e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fc47d47d790>', team='<IDEProvisioningBasicTeam 0x7fc47e36f9c0: teamID: 98L7DQ3GWS, teamName: zheng zhang>'>
+	<IDEDistributionContext: 0x7fc45f9b5540; archive = '<IDEArchive: 0x7fc47d9e08e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fc47d47d790>', team='(null)'>
+	<IDEDistributionContext: 0x7fc47d423b30; archive = '<IDEArchive: 0x7fc47d9e08e0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fc47dae89b0>
+2017-11-22 09:50:05 +0000  Processing step: IDEDistributionCreateDestRootStep
+2017-11-22 09:50:05 +0000  Processing step: IDEDistributionCopyItemStep
+2017-11-22 09:50:05 +0000  Running /usr/bin/ditto '-V' '/Users/zhangzheng/Library/Developer/Xcode/Archives/2017-11-22/Car 2017-11-22 下午5.31.xcarchive/Products/Applications/Car.app' '/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/XcodeDistPipeline.5re/Root/Payload/Car.app'
+2017-11-22 09:50:05 +0000  >>> Copying /Users/zhangzheng/Library/Developer/Xcode/Archives/2017-11-22/Car 2017-11-22 下午5.31.xcarchive/Products/Applications/Car.app 
+2017-11-22 09:50:05 +0000  copying file ./_CodeSignature/CodeResources ... 
+2017-11-22 09:50:05 +0000  12917 bytes for ./_CodeSignature/CodeResources
+copying file ./AppIcon20x20@2x.png ... 
+2017-11-22 09:50:05 +0000  4713 bytes for ./AppIcon20x20@2x.png
+copying file ./AppIcon20x20@2x~ipad.png ... 
+2017-11-22 09:50:05 +0000  4713 bytes for ./AppIcon20x20@2x~ipad.png
+copying file ./AppIcon20x20@3x.png ... 
+2017-11-22 09:50:05 +0000  9822 bytes for ./AppIcon20x20@3x.png
+copying file ./AppIcon20x20~ipad.png ... 
+1400 bytes for ./AppIcon20x20~ipad.png
+copying file ./AppIcon29x29.png ... 
+2017-11-22 09:50:05 +0000  2456 bytes for ./AppIcon29x29.png
+copying file ./AppIcon29x29@2x.png ... 
+9274 bytes for ./AppIcon29x29@2x.png
+copying file ./AppIcon29x29@2x~ipad.png ... 
+2017-11-22 09:50:05 +0000  9274 bytes for ./AppIcon29x29@2x~ipad.png
+copying file ./AppIcon29x29@3x.png ... 
+2017-11-22 09:50:05 +0000  19386 bytes for ./AppIcon29x29@3x.png
+copying file ./AppIcon29x29~ipad.png ... 
+2456 bytes for ./AppIcon29x29~ipad.png
+copying file ./AppIcon40x40@2x.png ... 
+16686 bytes for ./AppIcon40x40@2x.png
+copying file ./AppIcon40x40@2x~ipad.png ... 
+2017-11-22 09:50:05 +0000  16686 bytes for ./AppIcon40x40@2x~ipad.png
+copying file ./AppIcon40x40@3x.png ... 
+34827 bytes for ./AppIcon40x40@3x.png
+copying file ./AppIcon40x40~ipad.png ... 
+2017-11-22 09:50:05 +0000  4713 bytes for ./AppIcon40x40~ipad.png
+copying file ./AppIcon50x50@2x~ipad.png ... 
+24996 bytes for ./AppIcon50x50@2x~ipad.png
+copying file ./AppIcon50x50~ipad.png ... 
+2017-11-22 09:50:05 +0000  7011 bytes for ./AppIcon50x50~ipad.png
+copying file ./AppIcon57x57.png ... 
+2017-11-22 09:50:05 +0000  9007 bytes for ./AppIcon57x57.png
+copying file ./AppIcon57x57@2x.png ... 
+2017-11-22 09:50:05 +0000  31572 bytes for ./AppIcon57x57@2x.png
+copying file ./AppIcon60x60@2x.png ... 
+34827 bytes for ./AppIcon60x60@2x.png
+copying file ./AppIcon60x60@3x.png ... 
+2017-11-22 09:50:05 +0000  72569 bytes for ./AppIcon60x60@3x.png
+copying file ./AppIcon72x72@2x~ipad.png ... 
+2017-11-22 09:50:05 +0000  48469 bytes for ./AppIcon72x72@2x~ipad.png
+copying file ./AppIcon72x72~ipad.png ... 
+13822 bytes for ./AppIcon72x72~ipad.png
+copying file ./AppIcon76x76@2x~ipad.png ... 
+53754 bytes for ./AppIcon76x76@2x~ipad.png
+copying file ./AppIcon76x76~ipad.png ... 
+2017-11-22 09:50:05 +0000  15134 bytes for ./AppIcon76x76~ipad.png
+copying file ./AppIcon83.5x83.5@2x~ipad.png ... 
+63662 bytes for ./AppIcon83.5x83.5@2x~ipad.png
+copying file ./archived-expanded-entitlements.xcent ... 
+2017-11-22 09:50:05 +0000  360 bytes for ./archived-expanded-entitlements.xcent
+copying file ./Assets.car ... 
+2017-11-22 09:50:05 +0000  2224296 bytes for ./Assets.car
+2017-11-22 09:50:05 +0000  /usr/bin/ditto exited with 0
+2017-11-22 09:50:05 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+1791 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+1790 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+916 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Car ... 
+310096 bytes for ./Car
+copying file ./embedded.mobileprovision ... 
+7582 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+1682 bytes for ./Info.plist
+copying file ./LaunchImage-700-568h@2x.png ... 
+14942 bytes for ./LaunchImage-700-568h@2x.png
+copying file ./PkgInfo ... 
+8 bytes for ./PkgInfo
+2017-11-22 09:50:05 +0000  Processing step: IDEDistributionEmbedProfileStep
+2017-11-22 09:50:05 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2017-11-22 09:50:05 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2017-11-22 09:50:05 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2017-11-22 09:50:05 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool '/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/XcodeDistPipeline.5re/Root' '--json' '/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool-json-filepath-r6diNI' '--compile-bitcode' '--output' '/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/IDEIPAProcessor.AppThinning.pgZ' '--toolchain' '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr' '--platforms' '/Applications/Xcode.app/Contents/Developer/Platforms'
+2017-11-22 09:50:05 +0000  ruby 2.0.0p648 (2015-12-16 revision 53162) [universal.x86_64-darwin16]
+2017-11-22 09:50:05 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1594: warning: assigned but unused variable - minVersion
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1594: warning: assigned but unused variable - sdkVersion
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1603: warning: assigned but unused variable - sourceVersion
+2017-11-22 09:50:05 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1705: warning: shadowing outer local variable - node
+2017-11-22 09:50:05 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2472: warning: shadowing outer local variable - machoFile
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2472: warning: shadowing outer local variable - machoImage
+2017-11-22 09:50:05 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2664: warning: assigned but unused variable - flag
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2664: warning: assigned but unused variable - transformer
+2017-11-22 09:50:05 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2914: warning: assigned but unused variable - exc
+2017-11-22 09:50:05 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:739: warning: assigned but unused variable - output
+2017-11-22 09:50:05 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/gems/2.0.0/gems/libxml-ruby-2.6.0/lib/libxml/schema/type.rb:8: warning: method redefined; discarding old annotation
+2017-11-22 09:50:05 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/gems/2.0.0/gems/libxml-ruby-2.6.0/lib/libxml/schema/element.rb:18: warning: method redefined; discarding old annotation
+2017-11-22 09:50:05 +0000  OS X 10.12.6 16G29
+2017-11-22 09:50:05 +0000  ENV: {"PATH"=>"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin", "MallocNanoZone"=>"0", "TMPDIR"=>"/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/", "LOGNAME"=>"zhangzheng", "XPC_FLAGS"=>"0x0", "HOME"=>"/Users/zhangzheng", "Apple_PubSub_Socket_Render"=>"/private/tmp/com.apple.launchd.PfdzkgswVa/Render", "USER"=>"zhangzheng", "SSH_AUTH_SOCK"=>"/private/tmp/com.apple.launchd.n4Ubkj4CdQ/Listeners", "XPC_SERVICE_NAME"=>"com.apple.dt.Xcode.8504", "SHELL"=>"/bin/bash", "__CF_USER_TEXT_ENCODING"=>"0x1F5:0x19:0x34"}
+ARGV: ["/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/XcodeDistPipeline.5re/Root", "--json", "/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool-json-filepath-r6diNI", "--compile-bitcode", "--output", "/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/IDEIPAProcessor.AppThinning.pgZ", "--toolchain", "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr", "--platforms", "/Applications/Xcode.app/Contents/Developer/Platforms"]
+2017-11-22 09:50:05 +0000  warning: Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2017-11-22 09:50:05 +0000  warning: Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2017-11-22 09:50:05 +0000  warning: Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2017-11-22 09:50:05 +0000  Scanning IPA...
+2017-11-22 09:50:05 +0000  Complete LinkageGraph:
+    Car.app/Car armv7 ->
+    
+    Car.app/Car arm64 ->
+2017-11-22 09:50:05 +0000  Validating IPA structure...
+2017-11-22 09:50:06 +0000  Compiling bitcode...
+2017-11-22 09:50:06 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk -o /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/armv7/Payload/Car.app/Car --generate-dsym /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/armv7/Payload/Car.app/Car.dSYM --strip-swift-symbols /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/armv7/Payload/Car.app/Car
+2017-11-22 09:50:06 +0000    Compiling bitcode for armv7...
+    Compiling armv7 bitcode in 'Car'
+2017-11-22 09:50:07 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool exited with pid 2780 exit 0
+    Stdout:
+        Debug: SDK path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk
+        Debug: PATH: ['/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin', '/Applications/Xcode.app/Contents/Developer/usr/bin']
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo
+        MachoInfo: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/armv7/Payload/Car.app/Car" 
+        -= Output =-
+        Non-fat file: /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/armv7/Payload/Car.app/Car is architecture: armv7
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/armv7/Payload/Car.app/Car" 
+        -= Output =-
+        UUID: C42AB11C-AACA-329C-AF08-8364E8ADF08E (armv7) /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/armv7/Payload/Car.app/Car
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit
+        ExtractXAR: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/armv7/Payload/Car.app/Car" "-extract" "__LLVM" "__bundle" "/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/CarikHdtq/Car.armv7.xar" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Bitcode bundle version: 1.0
+        Debug: Setting platform to: iPhoneOS
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+        Clang: cd /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/tempmasAp3
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios10.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "1" "-o" "1.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/tempmasAp3
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios10.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "2" "-o" "2.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/tempmasAp3
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios10.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "3" "-o" "3.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/i
+2017-11-22 09:50:07 +0000  PhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libobjc.A.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libSystem.B.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/WebKit.framework/WebKit.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libobjc.A.tbd
+        Ld: cd /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/tempmasAp3
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "armv7" "-execute" "-ios_version_min" "10.3.0" "-e" "_main" "-rpath" "@executable_path/Frameworks" "-executable_path" "/Users/zhangzheng/Library/Developer/Xcode/DerivedData/Car-gvpanjbbjswnjhbmhvsygqcwumys/Build/Intermediates.noindex/ArchiveIntermediates/Car/IntermediateBuildFilesPath/Car.build/Release-iphoneos/Car.build/Objects-normal/armv7/Car" "-dead_strip" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk" "-sdk_version" "11.1.0" "-filelist" "/private/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/CarikHdtq/Car.armv7.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicates" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libSystem.B.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/WebKit.framework/WebKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.ios.a" "-o" "/private/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/CarikHdtq/Car.armv7.out" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        warning: Cannot genarte useful dsym from input macho file: /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/armv7/Payload/Car.app/Car
+        
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/armv7/Payload/Car.app/Car" 
+        -= Output =-
+        UUID: 5F983A52-815A-3269-A8ED-9712CD752EC0 (armv7) /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/armv7/Payload/Car.app/Car
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil
+        Dsymutil: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/Xcod
+2017-11-22 09:50:07 +0000  eDefault.xctoolchain/usr/bin/dsymutil" "/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/armv7/Payload/Car.app/Car" "-o" "/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/armv7/Payload/Car.app/Car.dSYM" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip
+        StripSymbols: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/armv7/Payload/Car.app/Car" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+    
+    Stderr:
+2017-11-22 09:50:07 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/armv7/Payload/Car.app /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/armv7/Payload/Car.app/Car
+2017-11-22 09:50:07 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with pid 2796 exit 0
+    Stdout:
+        /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/armv7/Payload/Car.app/Car [armv7, 0.008136 seconds]:
+    
+    Stderr:
+2017-11-22 09:50:07 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk -o /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/arm64/Payload/Car.app/Car --generate-dsym /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/arm64/Payload/Car.app/Car.dSYM --strip-swift-symbols /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/arm64/Payload/Car.app/Car
+2017-11-22 09:50:07 +0000    Compiling bitcode for arm64...
+    Compiling arm64 bitcode in 'Car'
+2017-11-22 09:50:08 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool exited with pid 2805 exit 0
+    Stdout:
+        Debug: SDK path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk
+        Debug: PATH: ['/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin', '/Applications/Xcode.app/Contents/Developer/usr/bin']
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo
+        MachoInfo: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/arm64/Payload/Car.app/Car" 
+        -= Output =-
+        Non-fat file: /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/arm64/Payload/Car.app/Car is architecture: arm64
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/arm64/Payload/Car.app/Car" 
+        -= Output =-
+        UUID: D46957B0-DA0D-3946-AD85-D4DD17EFBC99 (arm64) /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/arm64/Payload/Car.app/Car
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit
+        ExtractXAR: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/arm64/Payload/Car.app/Car" "-extract" "__LLVM" "__bundle" "/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/Cardagky3/Car.arm64.xar" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Bitcode bundle version: 1.0
+        Debug: Setting platform to: iPhoneOS
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+        Clang: cd /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/tempUUkQ3B
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios10.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "1" "-o" "1.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/tempUUkQ3B
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios10.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "2" "-o" "2.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/tempUUkQ3B
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios10.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "3" "-o" "3.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libobjc.A
+2017-11-22 09:50:08 +0000  .tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libSystem.B.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/WebKit.framework/WebKit.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libobjc.A.tbd
+        Ld: cd /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/tempUUkQ3B
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "arm64" "-execute" "-ios_version_min" "10.3.0" "-e" "_main" "-rpath" "@executable_path/Frameworks" "-executable_path" "/Users/zhangzheng/Library/Developer/Xcode/DerivedData/Car-gvpanjbbjswnjhbmhvsygqcwumys/Build/Intermediates.noindex/ArchiveIntermediates/Car/IntermediateBuildFilesPath/Car.build/Release-iphoneos/Car.build/Objects-normal/arm64/Car" "-dead_strip" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk" "-sdk_version" "11.1.0" "-filelist" "/private/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/Cardagky3/Car.arm64.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicates" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libSystem.B.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/WebKit.framework/WebKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.ios.a" "-o" "/private/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/Cardagky3/Car.arm64.out" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        warning: Cannot genarte useful dsym from input macho file: /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/arm64/Payload/Car.app/Car
+        
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/arm64/Payload/Car.app/Car" 
+        -= Output =-
+        UUID: 9570F9F5-1C48-3409-AE9F-07404505A3AE (arm64) /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/arm64/Payload/Car.app/Car
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil
+        Dsymutil: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" "/var/folders/t3/bd7m892j1w
+2017-11-22 09:50:08 +0000  scb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/arm64/Payload/Car.app/Car" "-o" "/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/arm64/Payload/Car.app/Car.dSYM" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip
+        StripSymbols: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/arm64/Payload/Car.app/Car" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+    
+    Stderr:
+/Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/arm64/Payload/Car.app /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/arm64/Payload/Car.app/Car
+2017-11-22 09:50:08 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with pid 2821 exit 0
+    Stdout:
+        /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/ipatool20171122-2667-1aamdc1/thinned/arm64/Payload/Car.app/Car [arm64, 0.000591 seconds]:
+    
+    Stderr:
+2017-11-22 09:50:08 +0000  Creating universal IPA contents for all devices
+  Creating directory /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/IDEIPAProcessor.AppThinning.pgZ/universal
+  Copying Car.app output payload directory
+2017-11-22 09:50:08 +0000    Copying .dSYM files to /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/IDEIPAProcessor.AppThinning.pgZ/universal/dSYMs
+  Copying .symbols files to /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/IDEIPAProcessor.AppThinning.pgZ/universal/Symbols
+2017-11-22 09:50:08 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool exited with 0
+2017-11-22 09:50:08 +0000  ipatool JSON: {
+    alerts =     (
+                {
+            code = 2819;
+            description = "Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2819;
+            description = "Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2819;
+            description = "Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        }
+    );
+    thinnableAssetCatalogs =     (
+        "/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/XcodeDistPipeline.5re/Root/Payload/Car.app/Assets.car"
+    );
+    universalIPA =     {
+        path = "/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/IDEIPAProcessor.AppThinning.pgZ/universal";
+    };
+}
+2017-11-22 09:50:08 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2017-11-22 09:50:08 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2017-11-22 09:50:08 +0000  Processing step: IDEDistributionSymbolsStep
+2017-11-22 09:50:08 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-11-22 09:50:08 +0000  Processing step: IDEDistributionAppThinningStep
+2017-11-22 09:50:08 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2017-11-22 09:50:08 +0000  Processing step: IDEDistributionODRStep
+2017-11-22 09:50:08 +0000  Processing step: IDEDistributionStripXattrsStep
+2017-11-22 09:50:08 +0000  Running /usr/bin/xattr '-crs' '/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/XcodeDistPipeline.5re/Root/Payload/Car.app'
+2017-11-22 09:50:08 +0000  /usr/bin/xattr exited with 0
+2017-11-22 09:50:08 +0000  Processing step: IDEDistributionCodesignStep
+2017-11-22 09:50:08 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fc47d4a69c0 'com.lxd.Car' '<DVTFilePath:0x7fc47e696ac0:'/Users/zhangzheng/Library/Developer/Xcode/Archives/2017-11-22/Car 2017-11-22 下午5.31.xcarchive/Products/Applications/Car.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7fc47e5c4450>: {
+}
+2017-11-22 09:50:08 +0000  Entitlements for <IDEDistributionItem: 0x7fc47d4a69c0 'com.lxd.Car' '<DVTFilePath:0x7fc47e696ac0:'/Users/zhangzheng/Library/Developer/Xcode/Archives/2017-11-22/Car 2017-11-22 下午5.31.xcarchive/Products/Applications/Car.app'>'>: {
+    "application-identifier" = "98L7DQ3GWS.com.lxd.Car";
+    "com.apple.developer.team-identifier" = 98L7DQ3GWS;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "98L7DQ3GWS.com.lxd.Car"
+    );
+}
+2017-11-22 09:50:08 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc47d4a69c0 'com.lxd.Car' '<DVTFilePath:0x7fc47e696ac0:'/Users/zhangzheng/Library/Developer/Xcode/Archives/2017-11-22/Car 2017-11-22 下午5.31.xcarchive/Products/Applications/Car.app'>'> to: /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/XcodeDistPipeline.5re/entitlementsEvw7z2
+2017-11-22 09:50:08 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '618E4B1C4CACB30B6182D7E2DA883BC4E557FD3A' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/XcodeDistPipeline.5re/entitlementsEvw7z2' '/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/XcodeDistPipeline.5re/Root/Payload/Car.app'
+2017-11-22 09:50:09 +0000  /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/XcodeDistPipeline.5re/Root/Payload/Car.app: signed app bundle with Mach-O universal (armv7 arm64) [com.lxd.Car]
+2017-11-22 09:50:09 +0000  /usr/bin/codesign exited with 0
+2017-11-22 09:50:09 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2017-11-22 09:50:09 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-11-22 09:50:09 +0000  Processing step: IDEDistributionCreateIPAStep
+2017-11-22 09:50:09 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/XcodeDistPipeline.5re/Root' '/var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/XcodeDistPipeline.5re/Packages/Car.ipa'
+2017-11-22 09:50:09 +0000  >>> Copying /var/folders/t3/bd7m892j1wscb6dkd0ckjwf40000gn/T/XcodeDistPipeline.5re/Root 
+2017-11-22 09:50:09 +0000  copying file ./Payload/Car.app/_CodeSignature/CodeResources ... 
+2017-11-22 09:50:09 +0000  12917 bytes for ./Payload/Car.app/_CodeSignature/CodeResources
+2017-11-22 09:50:09 +0000  copying file ./Payload/Car.app/AppIcon20x20@2x.png ... 
+2017-11-22 09:50:09 +0000  4713 bytes for ./Payload/Car.app/AppIcon20x20@2x.png
+copying file ./Payload/Car.app/AppIcon20x20@2x~ipad.png ... 
+2017-11-22 09:50:09 +0000  4713 bytes for ./Payload/Car.app/AppIcon20x20@2x~ipad.png
+copying file ./Payload/Car.app/AppIcon20x20@3x.png ... 
+2017-11-22 09:50:09 +0000  9822 bytes for ./Payload/Car.app/AppIcon20x20@3x.png
+copying file ./Payload/Car.app/AppIcon20x20~ipad.png ... 
+2017-11-22 09:50:09 +0000  1400 bytes for ./Payload/Car.app/AppIcon20x20~ipad.png
+copying file ./Payload/Car.app/AppIcon29x29.png ... 
+2017-11-22 09:50:09 +0000  2456 bytes for ./Payload/Car.app/AppIcon29x29.png
+copying file ./Payload/Car.app/AppIcon29x29@2x.png ... 
+2017-11-22 09:50:09 +0000  9274 bytes for ./Payload/Car.app/AppIcon29x29@2x.png
+copying file ./Payload/Car.app/AppIcon29x29@2x~ipad.png ... 
+2017-11-22 09:50:09 +0000  9274 bytes for ./Payload/Car.app/AppIcon29x29@2x~ipad.png
+copying file ./Payload/Car.app/AppIcon29x29@3x.png ... 
+2017-11-22 09:50:09 +0000  19386 bytes for ./Payload/Car.app/AppIcon29x29@3x.png
+copying file ./Payload/Car.app/AppIcon29x29~ipad.png ... 
+2017-11-22 09:50:09 +0000  2456 bytes for ./Payload/Car.app/AppIcon29x29~ipad.png
+copying file ./Payload/Car.app/AppIcon40x40@2x.png ... 
+16686 bytes for ./Payload/Car.app/AppIcon40x40@2x.png
+copying file ./Payload/Car.app/AppIcon40x40@2x~ipad.png ... 
+16686 bytes for ./Payload/Car.app/AppIcon40x40@2x~ipad.png
+copying file ./Payload/Car.app/AppIcon40x40@3x.png ... 
+2017-11-22 09:50:09 +0000  34827 bytes for ./Payload/Car.app/AppIcon40x40@3x.png
+copying file ./Payload/Car.app/AppIcon40x40~ipad.png ... 
+2017-11-22 09:50:09 +0000  4713 bytes for ./Payload/Car.app/AppIcon40x40~ipad.png
+copying file ./Payload/Car.app/AppIcon50x50@2x~ipad.png ... 
+2017-11-22 09:50:09 +0000  24996 bytes for ./Payload/Car.app/AppIcon50x50@2x~ipad.png
+copying file ./Payload/Car.app/AppIcon50x50~ipad.png ... 
+2017-11-22 09:50:09 +0000  7011 bytes for ./Payload/Car.app/AppIcon50x50~ipad.png
+copying file ./Payload/Car.app/AppIcon57x57.png ... 
+2017-11-22 09:50:09 +0000  9007 bytes for ./Payload/Car.app/AppIcon57x57.png
+copying file ./Payload/Car.app/AppIcon57x57@2x.png ... 
+2017-11-22 09:50:09 +0000  31572 bytes for ./Payload/Car.app/AppIcon57x57@2x.png
+copying file ./Payload/Car.app/AppIcon60x60@2x.png ... 
+2017-11-22 09:50:09 +0000  34827 bytes for ./Payload/Car.app/AppIcon60x60@2x.png
+copying file ./Payload/Car.app/AppIcon60x60@3x.png ... 
+2017-11-22 09:50:09 +0000  72569 bytes for ./Payload/Car.app/AppIcon60x60@3x.png
+copying file ./Payload/Car.app/AppIcon72x72@2x~ipad.png ... 
+2017-11-22 09:50:09 +0000  48469 bytes for ./Payload/Car.app/AppIcon72x72@2x~ipad.png
+copying file ./Payload/Car.app/AppIcon72x72~ipad.png ... 
+2017-11-22 09:50:09 +0000  13822 bytes for ./Payload/Car.app/AppIcon72x72~ipad.png
+copying file ./Payload/Car.app/AppIcon76x76@2x~ipad.png ... 
+2017-11-22 09:50:09 +0000  53754 bytes for ./Payload/Car.app/AppIcon76x76@2x~ipad.png
+copying file ./Payload/Car.app/AppIcon76x76~ipad.png ... 
+2017-11-22 09:50:09 +0000  15134 bytes for ./Payload/Car.app/AppIcon76x76~ipad.png
+copying file ./Payload/Car.app/AppIcon83.5x83.5@2x~ipad.png ... 
+2017-11-22 09:50:09 +0000  63662 bytes for ./Payload/Car.app/AppIcon83.5x83.5@2x~ipad.png
+copying file ./Payload/Car.app/archived-expanded-entitlements.xcent ... 
+2017-11-22 09:50:09 +0000  360 bytes for ./Payload/Car.app/archived-expanded-entitlements.xcent
+copying file ./Payload/Car.app/Assets.car ... 
+2017-11-22 09:50:09 +0000  2224296 bytes for ./Payload/Car.app/Assets.car
+2017-11-22 09:50:09 +0000  copying file ./Payload/Car.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+1791 bytes for ./Payload/Car.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/Car.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/Car.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/Car.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+832 bytes for ./Payload/Car.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/Car.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+1790 bytes for ./Payload/Car.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/Car.app/Base.lproj/Main.storyboardc/Info.plist ... 
+258 bytes for ./Payload/Car.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/Car.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+916 bytes for ./Payload/Car.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/Car.app/Car ... 
+2017-11-22 09:50:09 +0000  145216 bytes for ./Payload/Car.app/Car
+copying file ./Payload/Car.app/embedded.mobileprovision ... 
+2017-11-22 09:50:09 +0000  7582 bytes for ./Payload/Car.app/embedded.mobileprovision
+copying file ./Payload/Car.app/Info.plist ... 
+2017-11-22 09:50:09 +0000  3856 bytes for ./Payload/Car.app/Info.plist
+copying file ./Payload/Car.app/LaunchImage-700-568h@2x.png ... 
+2017-11-22 09:50:09 +0000  14942 bytes for ./Payload/Car.app/LaunchImage-700-568h@2x.png
+copying file ./Payload/Car.app/PkgInfo ... 
+8 bytes for ./Payload/Car.app/PkgInfo
+2017-11-22 09:50:09 +0000  /usr/bin/ditto exited with 0
+2017-11-22 09:50:09 +0000  Processing step: IDEDistributionCreateManifestStep

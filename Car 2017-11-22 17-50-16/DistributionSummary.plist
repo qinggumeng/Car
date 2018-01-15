@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Car.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>618E4B1C4CACB30B6182D7E2DA883BC4E557FD3A</string>
+				<key>dateExpires</key>
+				<string>2018/10/24</string>
+				<key>type</key>
+				<string>iOS Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>98L7DQ3GWS.com.lxd.Car</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>98L7DQ3GWS</string>
+				<key>get-task-allow</key>
+				<true/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>98L7DQ3GWS.com.lxd.Car</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Car.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>263194d8-c89a-44b7-a805-b3d1cf07904d</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>98L7DQ3GWS</string>
+				<key>name</key>
+				<string>zheng zhang</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
